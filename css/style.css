@@ -64,7 +64,7 @@
 }
 
 .navMenu a {
-  color: rgb(32,65,37) ;
+  color: #f6f4e6 ;
   text-decoration: none;
   font-family:"Segoe UI";
   font-size: 1.2em;
@@ -76,7 +76,7 @@
 }
 
 .navMenu a:hover {
-  color: rgb(32,65,37) ;
+  color: #fddb3a ;
 }
 
 .navMenu .dot {
@@ -177,13 +177,13 @@ body {
 }
 
 a {
-  color: rgb(32,65,37) ;
+  color: #F14E95) ;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: rgb(32,65,37) ;
+  color: #F14E95 ;
   outline: none;
   text-decoration: none;
 }
