@@ -54,7 +54,7 @@
 }
 
 .navMenu {
-  background-color: rgba(32,65,37,0.3);       
+  background-color: rgba(32,65,37,0.3);      
   position: relative;
   top: 50%;
   left: 50%;
@@ -64,7 +64,7 @@
 }
 
 .navMenu a {
-  color: #f6f4e6;
+  color: rgb(32,65,37) ;
   text-decoration: none;
   font-family:"Segoe UI";
   font-size: 1.2em;
@@ -76,7 +76,7 @@
 }
 
 .navMenu a:hover {
-  color: #fddb3a;
+  color: rgb(32,65,37) ;
 }
 
 .navMenu .dot {
@@ -177,13 +177,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: rgb(32,65,37) ;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: rgb(32,65,37) ;
   outline: none;
   text-decoration: none;
 }
