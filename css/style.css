@@ -1,6 +1,9 @@
 .container2 {
   display: flex;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 50%;
   padding: 4% 2%;
   box-sizing: border-box;
 }
@@ -9,20 +12,20 @@
   flex: 1;
   overflow: hidden;
   transition: .5s;
-  margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  margin: 0 0.5%;
+  /* box-shadow: 0 20px 30px rgba(0,0,0,.1); */
   line-height: 0;
 }
 
 .box > img {
-  width: 200%;
+  width: 100%;
   height: calc(100% - 10vh);
   object-fit: cover; 
   transition: .5s;
 }
 
 .box > span {
-  font-size: 3.8vh;
+  font-size: 2.8vh;
   display: block;
   text-align: center;
   height: 10vh;
