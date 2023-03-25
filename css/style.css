@@ -76,20 +76,9 @@
 }
 
 .navMenu a:hover {
-  color: #fddb3a ;
+  color: rgba(32,65,37,1) ;
 }
 
-.navMenu .dot {
-  width: 6px;
-  height: 6px;
-  background: #fddb3a;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
 
 .navMenu a:nth-child(1):hover ~ .dot {
   -webkit-transform: translateX(30px);
@@ -177,13 +166,13 @@ body {
 }
 
 a {
-  color: #F14E95) ;
+  color: rgba(32,65,37,1) ;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95 ;
+  color: rgba(32,65,37,1) ;
   outline: none;
   text-decoration: none;
 }
