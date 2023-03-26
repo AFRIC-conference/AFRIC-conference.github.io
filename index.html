@@ -2,6 +2,9 @@
 
 <html class="no-js"> 
 	<head>
+		
+
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Inka and Munir's Wedding </title>
@@ -108,14 +111,17 @@
 
 	</head>
 	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/css/flag-icon.min.css">
+
 		
-		
-	
 <div id="page">
 
 
 
 	<nav class="fh5co-nav" role="navigation" id="navbar">
+
+		
 		<div class="container">
 				<nav class="navMenu">
 					<a href="index.html">Home</a>
@@ -147,11 +153,28 @@
 						<li></li><a href="#around">Things To Do</a></li>		
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
-				</div> -->			
+				</div> -->	
+				
+			</div>	
+			<div class="dropdown dropdown-lang">
+				<button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="flag-icon flag-icon-us"></span>
+				</button>
+				<div class="dropdown-menu dropdown-menu-right">
+					<div class="dropdown-menu-col">
+						<a href="index.html" id="English" class="dropdown-item current"><span class="flag-icon flag-icon-us"></span>English</a>
+						<a href="index_DE.html" id="German" class="dropdown-item"><span class="flag-icon flag-icon-de"></span>Deutsch</a>
+
+					</div>
+				
+				</div>
+			</div>
 		</div>
+		
 	</nav>
 
 	<header id="fh5co-header" class="apage" role="banner" style="background-image:url(images/Untitled2000.png);">
+		
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -550,3 +573,16 @@ function myFunction() {
 	</body>
 </html>
 
+<script>
+	$(document).ready(function () {
+		$('.dropdown-menu-col a').click(function () {
+			//get the selected flag class
+			var selectedFlag = $(this).find('span').attr('class');
+			$('.current').text($(this).text());
+			//remove the previous flag class
+			$('.dropdown.dropdown-lang').find('button>span').removeClass();
+			//add the newly selected flag class
+			$('.dropdown.dropdown-lang').find('button>span').addClass(selectedFlag);
+		});
+	  });
+	  </script>
