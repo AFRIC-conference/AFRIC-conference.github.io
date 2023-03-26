@@ -1,3 +1,10 @@
+#country-1 {
+  display: none;
+}
+
+#country-2 {
+  display: none;
+}
 .container2 {
   display: flex;
   margin-left: auto;
@@ -47,7 +54,6 @@
        local("Segoe"),
        local("Segoe WP"),
        url('./ui/segoeui.eot?#iefix') format('embedded-opentype'),
-       url('./ui/segoeui.woff') format('woff'),
        url('./ui/segoeui.svg#SegoeUI') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -1961,4 +1967,3 @@ form label {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
