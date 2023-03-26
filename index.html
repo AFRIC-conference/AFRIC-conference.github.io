@@ -8,7 +8,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Inka and Munir's Wedding </title>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/css/flag-icon.min.css">
+	
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 
@@ -111,16 +113,26 @@
 
 	</head>
 	<body>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.0.0/css/flag-icon.min.css">
 
 		
 <div id="page">
 
 
-
 	<nav class="fh5co-nav" role="navigation" id="navbar">
 
+		<div class="dropdown dropdown-lang">
+			<button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="flag-icon flag-icon-au"></span>
+			</button>
+			<div class="dropdown-menu dropdown-menu-left">
+				<div class="dropdown-menu-col">
+					<a href="index.html" id="English" class="dropdown-item current"><span class="flag-icon flag-icon-au"></span>English</a>
+					<a href="index_DE.html" id="German" class="dropdown-item"><span class="flag-icon flag-icon-de"></span>Deutsch</a>
+	
+				</div>
+			
+			</div>
+		</div>
 		
 		<div class="container">
 				<nav class="navMenu">
@@ -156,19 +168,7 @@
 				</div> -->	
 				
 			</div>	
-			<div class="dropdown dropdown-lang">
-				<button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<span class="flag-icon flag-icon-us"></span>
-				</button>
-				<div class="dropdown-menu dropdown-menu-right">
-					<div class="dropdown-menu-col">
-						<a href="index.html" id="English" class="dropdown-item current"><span class="flag-icon flag-icon-us"></span>English</a>
-						<a href="index_DE.html" id="German" class="dropdown-item"><span class="flag-icon flag-icon-de"></span>Deutsch</a>
-
-					</div>
-				
-				</div>
-			</div>
+	
 		</div>
 		
 	</nav>
@@ -570,9 +570,6 @@ function myFunction() {
 }
 </script>
 
-	</body>
-</html>
-
 <script>
 	$(document).ready(function () {
 		$('.dropdown-menu-col a').click(function () {
@@ -586,3 +583,7 @@ function myFunction() {
 		});
 	  });
 	  </script>
+
+	</body>
+</html>
+
